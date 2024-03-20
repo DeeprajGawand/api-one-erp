@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: api-eam-auth
+  config:
+    import: "optional:configserver:http://localhost:9088"
